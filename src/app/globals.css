@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  transition: .5s;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.card:hover .icon .car{
+  scale: 1.1;
+  rotate: -10deg;
+}
+.card:hover h2{
+  letter-spacing: 1px;
+}
+
+#How .card:hover .icon .car{
+  scale: 1;
+  rotate: -10deg;
+}
+#How .card:hover h2{
+  letter-spacing: 1px;
+}
+@media (max-width:1270px) {
+  .res{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .gg{
+    display: none;
+  }
+  .bac{
+    height: 1250px;
+    margin-top: 90px;
+  }
+ 
+}
